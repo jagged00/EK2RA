@@ -1,0 +1,70 @@
+﻿l_simp_chinese:
+
+ trait_average_weight: "正常体重。"
+ trait_average_weight_desc: "这名角色的体重很健康。"
+ trait_average_weight_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]的体重很健康。\nStomach Size Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\nUpper Body Fat Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\nAbs Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\nGenetic Waist Size: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\nAging Stomach: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\nPregnant Belly Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_pregnant_stomach: "怀孕"
+
+ trait_pregnant_stomach_1: "开始显现"
+ trait_pregnant_stomach_1_desc: "这名角色处于孕期早期。"
+ trait_pregnant_stomach_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]处于孕期早期。\nStomach Size Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\nUpper Body Fat Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\nAbs Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\nGenetic Waist Size: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\nAging Stomach: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\nPregnant Belly Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_pregnant_stomach_2: "孕期晚期"
+ trait_pregnant_stomach_2_desc: "这名角色处于孕期晚期。"
+ trait_pregnant_stomach_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]处于孕期晚期。\nStomach Size Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\nUpper Body Fat Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\nAbs Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\nGenetic Waist Size: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\nAging Stomach: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\nPregnant Belly Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_pregnant_stomach_3: "特大孕肚"
+ trait_pregnant_stomach_3_desc: "这名角色有着特大孕肚而且可能怀着双胞胎。"
+ trait_pregnant_stomach_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]有着特大孕肚而且可能怀着双胞胎。\nStomach Size Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\nUpper Body Fat Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\nAbs Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\nGenetic Waist Size: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\nAging Stomach: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\nPregnant Belly Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_abs: "腹肌"
+
+ trait_abs_1: "健美"
+ trait_abs_1_desc: "这名角色有些肌肉。"
+ trait_abs_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]有些肌肉。\nStomach Size Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\nUpper Body Fat Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\nAbs Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\nGenetic Waist Size: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\nAging Stomach: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\nPregnant Belly Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_abs_3: "有型"
+ trait_abs_3_desc: "这名角色的腹部有些隆起，好的那种。"
+ trait_abs_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]的腹部有些隆起，好的那种。\nStomach Size Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\nUpper Body Fat Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\nAbs Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\nGenetic Waist Size: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\nAging Stomach: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\nPregnant Belly Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_abs_2: "雕琢"
+ trait_abs_2_desc: "这名角色的躯体犹如精美的石像。"
+ trait_abs_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]的躯体犹如精美的石像。\nStomach Size Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\nUpper Body Fat Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\nAbs Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\nGenetic Waist Size: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\nAging Stomach: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\nPregnant Belly Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_skinny: "瘦"
+
+ trait_skinny_1: "瘦"
+ trait_skinny_1_desc: "这名角色较瘦。"
+ trait_skinny_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]较瘦。\nStomach Size Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\nUpper Body Fat Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\nAbs Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\nGenetic Waist Size: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\nAging Stomach: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\nPregnant Belly Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_skinny_2: "很瘦"
+ trait_skinny_2_desc: "这名角色没什么脂肪。"
+ trait_skinny_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]没什么脂肪。\nStomach Size Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\nUpper Body Fat Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\nAbs Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\nGenetic Waist Size: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\nAging Stomach: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\nPregnant Belly Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_skinny_3: "特别瘦"
+ trait_skinny_3_desc: "这名角色的体重低得不健康。"
+ trait_skinny_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]的体重低得不健康。\nStomach Size Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\nUpper Body Fat Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\nAbs Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\nGenetic Waist Size: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\nAging Stomach: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\nPregnant Belly Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_skinny_4: "瘦骨嶙峋"
+ trait_skinny_4_desc: "这名角色缺少脂肪，其骨骼清晰可见。"
+ trait_skinny_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]缺少脂肪，其骨骼清晰可见。\nStomach Size Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\nUpper Body Fat Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\nAbs Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\nGenetic Waist Size: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\nAging Stomach: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\nPregnant Belly Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_fat: "胖"
+
+ trait_fat_1: "胖"
+ trait_fat_1_desc: "这名角色只是虚胖。"
+ trait_fat_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]只是虚胖。\nStomach Size Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\nUpper Body Fat Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\nAbs Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\nGenetic Waist Size: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\nAging Stomach: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\nPregnant Belly Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_fat_2: "很胖"
+ trait_fat_2_desc: "这名角色有层厚垫。"
+ trait_fat_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]有层厚垫。\nStomach Size Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\nUpper Body Fat Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\nAbs Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\nGenetic Waist Size: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\nAging Stomach: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\nPregnant Belly Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_fat_3: "特别胖"
+ trait_fat_3_desc: "这名角色的体重高得不健康。"
+ trait_fat_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]的体重高得不健康。\nStomach Size Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\nUpper Body Fat Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\nAbs Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\nGenetic Waist Size: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\nAging Stomach: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\nPregnant Belly Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_fat_4: "脑满肠肥"
+ trait_fat_4_desc: "这名角色的体重十分出众且沉重。"
+ trait_fat_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]的体重十分出众且沉重。\nStomach Size Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\nUpper Body Fat Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\nAbs Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\nGenetic Waist Size: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\nAging Stomach: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\nPregnant Belly Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+ 

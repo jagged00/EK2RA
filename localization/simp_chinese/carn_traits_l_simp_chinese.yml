@@ -1,0 +1,43 @@
+﻿l_simp_chinese:
+
+trait_futa: "雌雄同体"
+trait_futa_immersive: "雌雄同体"
+trait_futa_desc: "这名角色同时呈现男性与女性生殖解剖特征。\n\n由于当前 Carnalitas 游戏引擎限制，该角色目前无法使他人受孕，但仍可怀孕。"
+trait_futa_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]同时呈现男性与女性生殖解剖特征。\n\n由于当前 Carnalitas 游戏引擎限制，她目前无法使他人受孕，但仍可怀孕。"
+
+trait_hermaphrodite: "雌雄同体"
+trait_hermaphrodite_immersive: "雌雄同体"
+trait_hermaphrodite_desc: "这名角色同时呈现男性与女性生殖解剖特征。\n\n由于当前 Carnalitas 游戏引擎限制，该角色目前无法使他人受孕，但仍可怀孕。"
+trait_hermaphrodite_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]同时呈现男性与女性生殖解剖特征。\n\n由于当前 Carnalitas 游戏引擎限制，她目前无法使他人受孕，但仍可怀孕。"
+
+trait_slave: "奴隶"
+trait_slave_desc: "这名角色是另一个人的财产，法律规定其地位比普通人类要低贱。"
+trait_slave_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]是另一个人的财产，法律规定其地位比普通人类要低贱。"
+
+trait_former_slave: "曾为奴隶"
+trait_former_slave_neutral: "曾为奴隶"
+trait_former_slave_female: "自由人"
+trait_former_slave_male: "自由人"
+trait_former_slave_desc: "这名角色曾是奴隶，但现在已挣脱枷锁，重归自由。"
+trait_former_slave_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]曾是奴隶，但现在已挣脱枷锁，重归自由。"
+
+ trait_prostitute_1: "新人娼妓"
+ trait_prostitute_1_neutral: "新人娼妓"
+ trait_prostitute_1_female: "新人娼妓"
+ trait_prostitute_1_male: "新人娼妓"
+ trait_prostitute_1_desc: "The $trait_prostitute_1$正在提供性服务换取金钱。"
+ trait_prostitute_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]正在提供性服务换取金钱。"
+ trait_prostitute_2: "老练娼妓"
+ trait_prostitute_2_neutral: "老练娼妓"
+ trait_prostitute_2_female: "老练娼妓"
+ trait_prostitute_2_male: "老练娼妓"
+ trait_prostitute_2_desc: "The $trait_prostitute_2$以对房事的丰富知识和熟练技巧而闻名。"
+ trait_prostitute_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]以[ROOT.GetCharacter.GetHerHis]房事的丰富知识和熟练技巧而闻名。"
+ trait_prostitute_3: "头牌娼妓"
+ trait_prostitute_3_neutral: "头牌娼妓"
+ trait_prostitute_3_female: "头牌娼妓"
+ trait_prostitute_3_male: "头牌娼妓"
+ trait_prostitute_3_desc: "$trait_prostitute_3$是真正的交际花和无可匹敌的完美情人，只有最高级的贵族才有资格享用。"
+ trait_prostitute_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]是真正的交际花和无可匹敌的完美情人，只有最高级的贵族才有资格享用。"
+
+ trait_lifestyle_prostitute: "娼妓"

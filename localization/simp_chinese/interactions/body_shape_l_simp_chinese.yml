@@ -1,0 +1,10 @@
+﻿l_simp_chinese:
+ add_height_interaction:0 "改变身高"
+ add_breast_size_interaction:0 "改变胸部大小"
+ add_penis_size_interaction:0 "改变阳刚指数"
+ add_butt_size_interaction:0 "改变下身轮廓大小"
+ add_muscles_interaction:0 "改变肌肉"
+ change_visual_age_interaction: "改变表面年龄"
+ add_shoulders_interaction:0 "改变肩宽"
+ add_waist_interaction:0 "改变腰围"
+ switch_parent_house_interaction:0 "Swap to Other Parent's House"

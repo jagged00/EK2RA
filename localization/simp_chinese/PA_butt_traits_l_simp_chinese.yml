@@ -1,0 +1,55 @@
+﻿l_simp_chinese:
+
+ trait_butt: "下身轮廓"
+
+ trait_small_butt_narrow_hips: "小而窄的下身轮廓"
+ trait_small_butt_narrow_hips_desc: "这名角色拥有小而窄的下身轮廓，适合莎士比亚式理发椅。"
+ trait_small_butt_narrow_hips_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip拥有小而窄的下身轮廓，适合莎士比亚式理发椅。\nLower Body Profile Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\nHips Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\nLower Body Muscle Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"
+
+ trait_small_butt_medium_hips: "小下身轮廓"
+ trait_small_butt_medium_hips_desc: "这名角色是否拥有下身轮廓并不清楚。"
+ trait_small_butt_medium_hips_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]是否拥有下身轮廓并不清楚。\nLower Body Profile Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\nHips Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\nLower Body Muscle Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"
+
+ trait_small_butt_wide_hips: "小而宽的下身轮廓"
+ trait_small_butt_wide_hips_desc: "这名角色的下身轮廓好像薄饼。"
+ trait_small_butt_wide_hips_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]这名角色的下身轮廓好像薄饼。\nLower Body Profile Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\nHips Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\nLower Body Muscle Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"
+
+ trait_medium_butt_narrow_hips: "中等而宽的下身轮廓"
+ trait_medium_butt_narrow_hips_desc: "这名角色的腰带系的很紧。"
+ trait_medium_butt_narrow_hips_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]的腰带系的很紧。\nLower Body Profile Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\nHips Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\nLower Body Muscle Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"
+
+ trait_medium_butt_medium_hips: "中等下身轮廓"
+ trait_medium_butt_medium_hips_desc: "这名角色的下身轮廓并不出众，但也无所指摘。"
+ trait_medium_butt_medium_hips_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]这名角色的下身轮廓并不出众，但也无所指摘。\nLower Body Profile Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\nHips Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\nLower Body Muscle Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"
+
+ trait_medium_butt_wide_hips: "中等而宽的下身轮廓"
+ trait_medium_butt_wide_hips_desc: "这名角色的身体似乎决心避免直线。"
+ trait_medium_butt_wide_hips_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]这名角色的身体似乎决心避免直线。\nLower Body Profile Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\nHips Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\nLower Body Muscle Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"
+
+ trait_big_butt_narrow_hips: "大而窄的下身轮廓"
+ trait_big_butt_narrow_hips_desc: "这名角色因自身活泼的，嗯......个性而令人沉醉。"
+ trait_big_butt_narrow_hips_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]因自身活泼的，嗯......个性而令人沉醉。\nLower Body Profile Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\nHips Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\nLower Body Muscle Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"
+
+ trait_big_butt_medium_hips: "大下身轮廓"
+ trait_big_butt_medium_hips_desc: "这名角色出现时，骑士也会沉迷其中。"
+ trait_big_butt_medium_hips_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]出现时，骑士也会沉迷其中。\nLower Body Profile Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\nHips Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\nLower Body Muscle Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"
+
+ trait_big_butt_wide_hips_1: "大而宽的下身轮廓"
+ trait_big_butt_wide_hips_1_desc: "这名角色撼动了整个世界。"
+ trait_big_butt_wide_hips_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]撼动了整个世界。\nLower Body Profile Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\nHips Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\nLower Body Muscle Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"
+
+ trait_big_butt_wide_hips_2: "很大很宽的下身轮廓"
+ trait_big_butt_wide_hips_2_desc: "这名角色的体态正是维纳斯的化身。"
+ trait_big_butt_wide_hips_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]的体态正是维纳斯的化身。\nLower Body Profile Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\nHips Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\nLower Body Muscle Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"
+
+ trait_huge_hips: "超宽的下身轮廓"
+ trait_huge_hips_desc: "这名角色拥有丰厚体态。"
+ trait_huge_hips_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]拥有丰厚体态。\nLower Body Profile Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\nHips Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\nLower Body Muscle Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"
+
+ trait_huge_butt: "超大下身轮廓"
+ trait_huge_butt_desc: "这名角色的下身轮廓出奇的大。"
+ trait_huge_butt_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]的下身轮廓出奇的大。\nLower Body Profile Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\nHips Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\nLower Body Muscle Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"
+
+ trait_colossal_butt: "巨型下身轮廓"
+ trait_colossal_butt_desc: "这名角色的下身轮廓如罗德岛上的巨像使他人惊艳于其规模。"
+ trait_colossal_butt_character_desc: "Like the colossus of Rhodes [ROOT.GetCharacter.GetFirstNameNoTooltip]的下身轮廓如罗德岛上的巨像使他人惊艳于其规模。\nLower Body Profile Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\nHips Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\nLower Body Muscle Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"

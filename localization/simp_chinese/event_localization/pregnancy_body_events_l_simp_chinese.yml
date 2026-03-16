@@ -1,0 +1,24 @@
+﻿l_simp_chinese:
+ pregnancy_body.5001.t: "[breastfeeding_child_mother.GetNamePossessiveOrMy|U]无法产出母乳"
+ pregnancy_body.5001.desc: "无论[breastfeeding_child_mother.GetFirstName|U]多么努力尝试她就是无法产出母乳。\n现在我们开始用羊奶来喂养[breastfeeding_child.GetFirstName|U]，但这不是完美的替代品。"
+ pregnancy_body.5001.a: "我应该雇佣一名奶妈"
+ pregnancy_body.5001.b: "不要再和我提及此事"
+ pregnancy_body.5001.c: "不要再和我，或我的孩子提及此事"
+ 
+ pregnancy_body.5002.t: "我无法产出母乳"
+ pregnancy_body.5002.desc: "无论我多么努力尝试就是无法产出母乳，当我看着[breastfeeding_child.GetFirstName|U]我感到深刻的耻辱。\n现在我们开始用羊奶来喂养[breastfeeding_child.GetFirstName|U]，但这不是完美的替代品。"
+ pregnancy_body.5002.a: "我应该雇佣一名奶妈"
+ pregnancy_body.5002.b: "不要再和我提及此事"
+ pregnancy_body.5002.c: "不要再和我，或我的孩子提及此事"
+
+ pregnancy_body.6001.t: "没有母乳"
+ pregnancy_body.6001.desc: "随着[breastfeeding_child_mother.GetNamePossessiveOrMy|U]的死去，我的[breastfeeding_child.GetFirstName|U]没有了母乳。\n现在我们开始用羊奶来喂养[breastfeeding_child.GetFirstName|U]，但这不是完美的替代品。"
+ pregnancy_body.6001.a: "我应该雇佣一名奶妈"
+ pregnancy_body.6001.b: "不要再和我提及此事"
+ pregnancy_body.6001.c: "不要再和我，或我的孩子提及此事"
+ 
+ pregnancy_body.7001.t: "[breastfeeding_child.GetFirstName|U]不再有母乳"
+ pregnancy_body.7001.desc: "[wet_nurse.GetFirstName|U]不能再成为[breastfeeding_child.GetFirstName|U]的奶妈，但[breastfeeding_child.GetSheHe|U]对于食用固体食物还是太年轻了。\n现在我们开始用羊奶来喂养[breastfeeding_child.GetFirstName|U]，但这不是完美的替代品。"
+ pregnancy_body.7001.a: "我应该雇佣一名新的奶妈"
+ pregnancy_body.7001.b: "不要再和我提及此事"
+ pregnancy_body.7001.c: "不要再和我，或我的孩子提及此事"

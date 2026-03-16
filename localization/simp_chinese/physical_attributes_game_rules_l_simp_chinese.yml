@@ -1,0 +1,7 @@
+﻿l_simp_chinese:
+ rule_measurement_units: "计量单位"
+ setting_us_custom_units: "英制单位"
+ setting_us_custom_units_desc: "完全合理的在美国普遍使用的计量系统。"
+ setting_metric_units: "公制单位"
+ setting_metric_units_desc: "在除缅甸、美国和利比里亚外所有地方普遍使用的计量系统。"
+ 

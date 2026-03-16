@@ -1,0 +1,49 @@
+﻿l_simp_chinese:
+
+ trait_average_height: "正常身高"
+ trait_average_height_desc: "这名角色的身高非常标准。"
+ trait_average_height_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]的身高非常标准。\nHeight: [Character.Custom('GetHeight')] / [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('metric_height')|0] cm / Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_height')|0]"
+
+ trait_short: "矮"
+
+ trait_short_1: "矮"
+ trait_short_1_desc: "这名角色比大多数人矮一些。"
+ trait_short_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]比大多数人矮一些。\nHeight: [Character.Custom('GetHeight')] / [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('metric_height')|0] cm / Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_height')|0]"
+
+ trait_short_2: "很矮"
+ trait_short_2_desc: "这名角色在人群中难以视物。"
+ trait_short_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]在人群中难以视物。\nHeight: [Character.Custom('GetHeight')] / [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('metric_height')|0] cm / Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_height')|0]"
+
+ trait_short_3: "特别矮"
+ trait_short_3_desc: "这名角色很适应狭窄环境。"
+ trait_short_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]很适应狭窄环境。\nHeight: [Character.Custom('GetHeight')] / [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('metric_height')|0] cm / Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_height')|0]"
+
+ trait_short_4: "超级矮"
+ trait_short_4_desc: "这名角色经常被忽视。"
+ trait_short_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]经常被忽视。\nHeight: [Character.Custom('GetHeight')] / [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('metric_height')|0] cm / Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_height')|0]"
+
+ trait_short_5: "迷你"
+ trait_short_5_desc: "这名角色的身材无比矮小。"
+ trait_short_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]的身材无比矮小。\nHeight: [Character.Custom('GetHeight')] / [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('metric_height')|0] cm / Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_height')|0]"
+
+ trait_tall: "高"
+
+ trait_tall_1: "高"
+ trait_tall_1_desc: "这名角色比大多数人高。"
+ trait_tall_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]比大多数人高。\nHeight: [Character.Custom('GetHeight')] / [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('metric_height')|0] cm / Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_height')|0]"
+
+ trait_tall_2: "很高"
+ trait_tall_2_desc: "这名角色要小看大多数人。"
+ trait_tall_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]要小看大多数人。\nHeight: [Character.Custom('GetHeight')] / [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('metric_height')|0] cm / Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_height')|0]"
+
+ trait_tall_3: "特别高"
+ trait_tall_3_desc: "这名角色高耸入云。"
+ trait_tall_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]高耸入云。\nHeight: [Character.Custom('GetHeight')] / [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('metric_height')|0] cm / Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_height')|0]"
+
+ trait_tall_4: "超级高"
+ trait_tall_4_desc: "这名角色的身高十分出众。"
+ trait_tall_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]的身高十分出众。\nHeight: [Character.Custom('GetHeight')] / [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('metric_height')|0] cm / Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_height')|0]"
+
+ trait_tall_5: "巨人"
+ trait_tall_5_desc: "这名角色的身材好似出自古老的神话。"
+ trait_tall_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]的身材好似出自古老的神话。\nHeight: [Character.Custom('GetHeight')] / [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('metric_height')|0] cm / Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_height')|0]"

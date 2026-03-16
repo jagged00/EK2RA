@@ -1,0 +1,40 @@
+﻿l_simp_chinese:
+
+ trait_average_muscular: "普通"
+ trait_average_muscular_desc: "这个角色的力量并不出众。"
+ trait_average_muscular_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]的力量并不出众。\nMuscles Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_muscle')|0]\nArm Muscle Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('visual_arm_muscle')|0]\nShoulders Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_shoulders')|0]"
+ 
+ trait_muscular: "肌肉特质"
+
+ trait_muscular_1: "健壮"
+ trait_muscular_1_desc: "这个角色较为健壮。"
+ trait_muscular_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]较为健壮。\nMuscles Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_muscle')|0]\nArm Muscle Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('visual_arm_muscle')|0]\nShoulders Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_shoulders')|0]"
+ 
+ trait_muscular_2: "强壮"
+ trait_muscular_2_desc: "这个角色的肌肉甚为壮观。"
+ trait_muscular_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]的肌肉甚为壮观\。nMuscles Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_muscle')|0]\nArm Muscle Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('visual_arm_muscle')|0]\nShoulders Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_shoulders')|0]"
+ 
+ trait_muscular_3: "神力"
+ trait_muscular_3_desc: "这个角色十分擅长毁坏。"
+ trait_muscular_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]十分擅长毁坏。\nMuscles Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_muscle')|0]\nArm Muscle Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('visual_arm_muscle')|0]\nShoulders Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_shoulders')|0]"
+ 
+ trait_skinny_arms: "细胳膊"
+
+ trait_skinny_arms_1: "结实"
+ trait_skinny_arms_1_desc: "这个角色拥有细瘦的胳膊。"
+ trait_skinny_arms_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]拥有细瘦的胳膊。\nMuscles Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_muscle')|0]\nArm Muscle Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('visual_arm_muscle')|0]\nShoulders Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_shoulders')|0]"
+ 
+ trait_skinny_arms_2: "皮包骨"
+ trait_skinny_arms_2_desc: "这个角色只是皮包骨。"
+ trait_skinny_arms_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]只是皮包骨。\nMuscles Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_muscle')|0]\nArm Muscle Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('visual_arm_muscle')|0]\nShoulders Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_shoulders')|0]"
+ 
+ trait_fat_arms: "粗胳膊"
+
+ trait_fat_arms_1: "柔软"
+ trait_fat_arms_1_desc: "这个角色的身体软而细腻。"
+ trait_fat_arms_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]的身体软而细腻。\nMuscles Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_muscle')|0]\nArm Muscle Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('visual_arm_muscle')|0]\nShoulders Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_shoulders')|0]"
+ 
+ trait_fat_arms_2: "宋驰"
+ trait_fat_arms_2_desc: "无论这个角色是否有肌肉，它们都藏在一层厚脂肪下面。"
+ trait_fat_arms_2_character_desc: "无论[ROOT.GetCharacter.GetFirstNameNoTooltip是否有肌肉，它们都藏在一层厚脂肪下面。\nMuscles Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_muscle')|0]\nArm Muscle Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('visual_arm_muscle')|0]\nShoulders Game Value: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_shoulders')|0]"
+ 
