@@ -63,9 +63,14 @@ assign_ek2_height_trait_effect = {
 		limit = {
 			OR = {
 				culture = tundrastrider
+				culture = giant
+				culture = sea_giant
+				culture = mountain_giant
 				culture = minotaur
 				culture = agreminotaur
 				culture = knocker
+				culture = { has_heritage = heritage_atmoran_giant }
+				culture = { has_heritage = heritage_minotaur }
 			}
 		}
 		if = {
@@ -84,7 +89,11 @@ assign_ek2_height_trait_effect = {
 				culture = kapotun
 				culture = maormer
 				culture = beyonder
+				culture = { has_heritage = heritage_dremora }
+				culture = { has_heritage = heritage_imgan }
+				culture = { has_heritage = heritage_kapotun }
 				culture = { has_heritage = heritage_maormeri }
+				culture = { has_heritage = heritage_orcish }
 				culture = mountain_orc
 				culture = iron_orc
 				culture = wood_orc
@@ -125,7 +134,10 @@ assign_ek2_height_trait_effect = {
 				culture = falmer_betrayed
 				culture = { has_heritage = heritage_dunmeri }
 				culture = { has_heritage = heritage_chimeri }
+				culture = { has_heritage = heritage_echmer }
 				culture = { has_heritage = heritage_falmeri }
+				culture = { has_heritage = heritage_tsaesci }
+				culture = { has_heritage = heritage_argonian }
 				culture = { has_heritage = heritage_dwemeri }
 				culture = hleel
 				culture = naga
@@ -166,6 +178,7 @@ assign_ek2_height_trait_effect = {
 	else_if = {
 		limit = {
 			OR = {
+				culture = khajiit
 				culture = lilmothiit
 				culture = pellitinian
 				culture = anequinan
@@ -173,6 +186,9 @@ assign_ek2_height_trait_effect = {
 				culture = malapiit
 				culture = tangmo
 				culture = faun
+				culture = { has_heritage = heritage_khajiiti }
+				culture = { has_heritage = heritage_tangmo }
+				culture = { has_heritage = heritage_faun }
 			}
 		}
 		if = {
