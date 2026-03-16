@@ -1,16 +1,18 @@
 assign_ek2_height_trait_effect = {
+	# Goblin-ken: force the absolute shortest bucket.
 	if = {
 		limit = {
 			OR = {
 				culture = goblin
 				culture = riekling
 				culture = riekr
-				culture = { has_heritage = heritage_goblinken }
 			}
 		}
 		remove_height_trait_effect = yes
 		add_trait = short_5
 	}
+
+	# Altmer + Ayleid lines: force tallest bucket.
 	else_if = {
 		limit = {
 			OR = {
@@ -22,30 +24,27 @@ assign_ek2_height_trait_effect = {
 				culture = mathmeldi
 				culture = barsaebic
 				culture = dynari
-				culture = { has_heritage = heritage_aldmeri }
-				culture = { has_heritage = heritage_ayleid }
 			}
 		}
 		remove_height_trait_effect = yes
 		add_trait = tall_5
 	}
+
+	# Giant and minotaur groups: force tallest bucket.
 	else_if = {
 		limit = {
 			OR = {
 				culture = tundrastrider
-				culture = giant
-				culture = sea_giant
-				culture = mountain_giant
 				culture = minotaur
 				culture = agreminotaur
 				culture = knocker
-				culture = { has_heritage = heritage_atmoran_giant }
-				culture = { has_heritage = heritage_minotaur }
 			}
 		}
 		remove_height_trait_effect = yes
 		add_trait = tall_5
 	}
+
+	# Very tall races.
 	else_if = {
 		limit = {
 			OR = {
@@ -59,16 +58,13 @@ assign_ek2_height_trait_effect = {
 				culture = wood_orc
 				culture = malahk_orc
 				culture = dune_orc
-				culture = { has_heritage = heritage_dremora }
-				culture = { has_heritage = heritage_imgan }
-				culture = { has_heritage = heritage_kapotun }
-				culture = { has_heritage = heritage_maormeri }
-				culture = { has_heritage = heritage_orcish }
 			}
 		}
 		remove_height_trait_effect = yes
 		add_trait = tall_4
 	}
+
+	# Slightly tall races.
 	else_if = {
 		limit = {
 			OR = {
@@ -88,16 +84,13 @@ assign_ek2_height_trait_effect = {
 				culture = sarpa
 				culture = ojel
 				culture = hapsleet
-				culture = { has_heritage = heritage_chimeri }
-				culture = { has_heritage = heritage_echmer }
-				culture = { has_heritage = heritage_falmeri }
-				culture = { has_heritage = heritage_tsaesci }
-				culture = { has_heritage = heritage_argonian }
 			}
 		}
 		remove_height_trait_effect = yes
 		add_trait = tall_1
 	}
+
+	# Bosmer should be short, but not goblin-short.
 	else_if = {
 		limit = {
 			OR = {
@@ -107,27 +100,23 @@ assign_ek2_height_trait_effect = {
 				culture = arenthi
 				culture = silvenari
 				culture = etarani
-				culture = lilmothiit
-				culture = { has_heritage = heritage_bosmeri }
-				culture = { has_heritage = heritage_lilmothiit }
 			}
 		}
 		remove_height_trait_effect = yes
-		add_trait = short_2
+		add_trait = short_1
 	}
+
+	# Highly variable groups: keep neutral average bucket.
 	else_if = {
 		limit = {
 			OR = {
-				culture = khajiit
+				culture = lilmothiit
 				culture = pellitinian
 				culture = anequinan
 				culture = baandari
 				culture = malapiit
 				culture = tangmo
 				culture = faun
-				culture = { has_heritage = heritage_khajiiti }
-				culture = { has_heritage = heritage_tangmo }
-				culture = { has_heritage = heritage_faun }
 			}
 		}
 		remove_height_trait_effect = yes
