@@ -9,8 +9,11 @@ assign_ek2_height_trait_effect = {
 				culture = { has_heritage = heritage_goblinken }
 			}
 		}
-		remove_height_trait_effect = yes
-		add_trait = short_5
+		if = {
+			limit = { NOT = { has_trait = short_5 } }
+			remove_height_trait_effect = yes
+			add_trait = short_5
+		}
 	}
 
 	# Altmer + Ayleid lines: force tallest bucket.
@@ -29,8 +32,11 @@ assign_ek2_height_trait_effect = {
 				culture = { has_heritage = heritage_ayleid }
 			}
 		}
-		remove_height_trait_effect = yes
-		add_trait = tall_5
+		if = {
+			limit = { NOT = { has_trait = tall_5 } }
+			remove_height_trait_effect = yes
+			add_trait = tall_5
+		}
 	}
 
 	# Nords/Atmorans: tall baseline per lore range.
@@ -45,8 +51,11 @@ assign_ek2_height_trait_effect = {
 				culture = { has_heritage = heritage_atmoran }
 			}
 		}
-		remove_height_trait_effect = yes
-		add_trait = tall_3
+		if = {
+			limit = { NOT = { has_trait = tall_3 } }
+			remove_height_trait_effect = yes
+			add_trait = tall_3
+		}
 	}
 
 	# Giant and minotaur groups: force tallest bucket.
@@ -59,8 +68,11 @@ assign_ek2_height_trait_effect = {
 				culture = knocker
 			}
 		}
-		remove_height_trait_effect = yes
-		add_trait = tall_5
+		if = {
+			limit = { NOT = { has_trait = tall_5 } }
+			remove_height_trait_effect = yes
+			add_trait = tall_5
+		}
 	}
 
 	# Very tall races.
@@ -80,8 +92,11 @@ assign_ek2_height_trait_effect = {
 				culture = dune_orc
 			}
 		}
-		remove_height_trait_effect = yes
-		add_trait = tall_4
+		if = {
+			limit = { NOT = { has_trait = tall_4 } }
+			remove_height_trait_effect = yes
+			add_trait = tall_4
+		}
 	}
 
 	# Slightly tall races (Dunmer/Chimer/Falmer/Dwemer and similar groups).
@@ -121,8 +136,11 @@ assign_ek2_height_trait_effect = {
 				culture = hapsleet
 			}
 		}
-		remove_height_trait_effect = yes
-		add_trait = tall_1
+		if = {
+			limit = { NOT = { has_trait = tall_1 } }
+			remove_height_trait_effect = yes
+			add_trait = tall_1
+		}
 	}
 
 	# Bosmer should be short, but not goblin-short.
@@ -137,8 +155,11 @@ assign_ek2_height_trait_effect = {
 				culture = etarani
 			}
 		}
-		remove_height_trait_effect = yes
-		add_trait = short_1
+		if = {
+			limit = { NOT = { has_trait = short_1 } }
+			remove_height_trait_effect = yes
+			add_trait = short_1
+		}
 	}
 
 	# Highly variable groups: keep neutral average bucket.
@@ -154,7 +175,10 @@ assign_ek2_height_trait_effect = {
 				culture = faun
 			}
 		}
-		remove_height_trait_effect = yes
-		add_trait = average_height
+		if = {
+			limit = { NOT = { has_trait = average_height } }
+			remove_height_trait_effect = yes
+			add_trait = average_height
+		}
 	}
 }
