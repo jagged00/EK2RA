@@ -1,0 +1,125 @@
+assign_ek2_height_trait_effect = {
+	# Goblin-ken: force the absolute shortest bucket.
+	if = {
+		limit = {
+			OR = {
+				culture = goblin
+				culture = riekling
+				culture = riekr
+			}
+		}
+		remove_height_trait_effect = yes
+		add_trait = short_5
+	}
+
+	# Altmer + Ayleid lines: force tallest bucket.
+	else_if = {
+		limit = {
+			OR = {
+				culture = alinor
+				culture = auridon
+				culture = balfiera
+				culture = corelanya
+				culture = ayleid
+				culture = mathmeldi
+				culture = barsaebic
+				culture = dynari
+			}
+		}
+		remove_height_trait_effect = yes
+		add_trait = tall_5
+	}
+
+	# Giant and minotaur groups: force tallest bucket.
+	else_if = {
+		limit = {
+			OR = {
+				culture = tundrastrider
+				culture = minotaur
+				culture = agreminotaur
+				culture = knocker
+			}
+		}
+		remove_height_trait_effect = yes
+		add_trait = tall_5
+	}
+
+	# Very tall races.
+	else_if = {
+		limit = {
+			OR = {
+				culture = dremora
+				culture = imga
+				culture = kapotun
+				culture = maormer
+				culture = beyonder
+				culture = mountain_orc
+				culture = iron_orc
+				culture = wood_orc
+				culture = malahk_orc
+				culture = dune_orc
+			}
+		}
+		remove_height_trait_effect = yes
+		add_trait = tall_4
+	}
+
+	# Slightly tall races.
+	else_if = {
+		limit = {
+			OR = {
+				culture = chimer
+				culture = chimeriquey
+				culture = cantemiric
+				culture = tsaesci
+				culture = ilniviri
+				culture = rimmen
+				culture = echmer
+				culture = falmer
+				culture = falmer_betrayed
+				culture = hleel
+				culture = naga
+				culture = paatru
+				culture = agaceph
+				culture = sarpa
+				culture = ojel
+				culture = hapsleet
+			}
+		}
+		remove_height_trait_effect = yes
+		add_trait = tall_1
+	}
+
+	# Bosmer should be short, but not goblin-short.
+	else_if = {
+		limit = {
+			OR = {
+				culture = morathi
+				culture = altmeribosmer
+				culture = cyrobosmer
+				culture = arenthi
+				culture = silvenari
+				culture = etarani
+			}
+		}
+		remove_height_trait_effect = yes
+		add_trait = short_1
+	}
+
+	# Highly variable groups: keep neutral average bucket.
+	else_if = {
+		limit = {
+			OR = {
+				culture = lilmothiit
+				culture = pellitinian
+				culture = anequinan
+				culture = baandari
+				culture = malapiit
+				culture = tangmo
+				culture = faun
+			}
+		}
+		remove_height_trait_effect = yes
+		add_trait = average_height
+	}
+}
