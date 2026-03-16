@@ -18,6 +18,14 @@ on_height_trait = {
 			has_variable = height_growth
 		}
 		effect = {
+			set_variable = {
+				name = ek2_height_forced
+				value = 0
+			}
+			assign_ek2_height_trait_effect = yes
+
+			if = {
+				limit = { var:ek2_height_forced < 1 }
 			remove_variable = actual_height_variable
 			set_variable = {
 				name = actual_height_variable
@@ -138,8 +146,8 @@ on_height_trait = {
 					add_trait = short_5
 				}
 			}
+			}
 
-			# EK2 compatibility override: enforce race/culture heights after vanilla height calculation.
-			assign_ek2_height_trait_effect = yes
+			remove_variable = ek2_height_forced
 		}
 	}

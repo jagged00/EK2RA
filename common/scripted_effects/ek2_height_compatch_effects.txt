@@ -14,6 +14,7 @@ assign_ek2_height_trait_effect = {
 			remove_height_trait_effect = yes
 			add_trait = short_5
 		}
+		set_variable = { name = ek2_height_forced value = 1 }
 	}
 
 	# Altmer + Ayleid lines: force tallest bucket.
@@ -37,6 +38,7 @@ assign_ek2_height_trait_effect = {
 			remove_height_trait_effect = yes
 			add_trait = tall_5
 		}
+		set_variable = { name = ek2_height_forced value = 1 }
 	}
 
 	# Nords/Atmorans: tall baseline per lore range.
@@ -56,6 +58,7 @@ assign_ek2_height_trait_effect = {
 			remove_height_trait_effect = yes
 			add_trait = tall_3
 		}
+		set_variable = { name = ek2_height_forced value = 1 }
 	}
 
 	# Giant and minotaur groups: force tallest bucket.
@@ -78,6 +81,7 @@ assign_ek2_height_trait_effect = {
 			remove_height_trait_effect = yes
 			add_trait = tall_5
 		}
+		set_variable = { name = ek2_height_forced value = 1 }
 	}
 
 	# Very tall races.
@@ -106,9 +110,10 @@ assign_ek2_height_trait_effect = {
 			remove_height_trait_effect = yes
 			add_trait = tall_4
 		}
+		set_variable = { name = ek2_height_forced value = 1 }
 	}
 
-	# Slightly tall races (Dunmer/Chimer/Falmer/Dwemer and similar groups).
+	# Slightly tall races.
 	else_if = {
 		limit = {
 			OR = {
@@ -153,6 +158,7 @@ assign_ek2_height_trait_effect = {
 			remove_height_trait_effect = yes
 			add_trait = tall_1
 		}
+		set_variable = { name = ek2_height_forced value = 1 }
 	}
 
 	# Bosmer should be short, but not goblin-short.
@@ -172,6 +178,7 @@ assign_ek2_height_trait_effect = {
 			remove_height_trait_effect = yes
 			add_trait = short_1
 		}
+		set_variable = { name = ek2_height_forced value = 1 }
 	}
 
 	# Highly variable groups: keep neutral average bucket.
@@ -196,5 +203,6 @@ assign_ek2_height_trait_effect = {
 			remove_height_trait_effect = yes
 			add_trait = average_height
 		}
+		set_variable = { name = ek2_height_forced value = 1 }
 	}
 }
