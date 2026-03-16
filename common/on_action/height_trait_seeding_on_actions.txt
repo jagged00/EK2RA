@@ -138,5 +138,8 @@ on_height_trait = {
 					add_trait = short_5
 				}
 			}
+
+			# EK2 compatibility override: enforce race/culture heights after vanilla height calculation.
+			assign_ek2_height_trait_effect = yes
 		}
 	}
