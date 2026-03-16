@@ -126,6 +126,9 @@
 		}
 
 		NOT = { scope:owner = { has_character_flag = is_party_baron } } # The Party Baron wants friends, not lovers!
+		NOT = { ek2_disallowed_romance_race_trigger = yes }
+		scope:target = { NOT = { ek2_disallowed_romance_race_trigger = yes } }
+
 	}
 	valid = {
 		is_incapable = no
