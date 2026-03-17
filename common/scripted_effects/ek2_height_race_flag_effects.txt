@@ -14,7 +14,10 @@ ek2_set_height_race_flags_effect = {
 		limit = {
 			OR = {
 				has_character_flag = race_goblinken
-				culture = { has_cultural_pillar = heritage_goblinken }
+				race = race_goblin_green
+				race = race_goblin_yellow
+				race = race_goblin_riekling
+				race = race_goblin_riekr
 			}
 		}
 		add_character_flag = race_ek2_height_goblinken
@@ -23,22 +26,19 @@ ek2_set_height_race_flags_effect = {
 	# Altmer/Ayleid: tallest mer.
 	else_if = {
 		limit = {
-			culture = {
-				OR = {
-					has_cultural_pillar = heritage_aldmeri
-					has_cultural_pillar = heritage_ayleid
-				}
+			OR = {
+				race = race_altmer
+				race = race_altmer_pure_1
+				race = race_altmer_pure_2
+				race = race_altmer_ear
+				race = race_altmer_balfieri_1
+				race = race_altmer_balfieri_2
+				race = race_ayleid_1
+				race = race_ayleid_2
+				race = race_ayleid_3
 			}
 		}
 		add_character_flag = race_ek2_height_altmer_ayleid
-	}
-
-	# Nords/Atmorans: tall human baseline.
-	else_if = {
-		limit = {
-			culture = { has_cultural_pillar = heritage_atmoran }
-		}
-		add_character_flag = race_ek2_height_nord
 	}
 
 	# Giants/Minotaurs: tallest possible.
@@ -47,12 +47,10 @@ ek2_set_height_race_flags_effect = {
 			OR = {
 				has_character_flag = race_giant
 				has_character_flag = race_minotaur
-				culture = {
-					OR = {
-						has_cultural_pillar = heritage_atmoran_giant
-						has_cultural_pillar = heritage_minotaur
-					}
-				}
+				race = race_giant
+				race = race_giant_kamal
+				race = race_minotaur
+				race = race_sea_giant
 			}
 		}
 		add_character_flag = race_ek2_height_giant_minotaur
@@ -65,18 +63,36 @@ ek2_set_height_race_flags_effect = {
 				has_character_flag = race_daedra
 				has_character_flag = race_imga
 				has_character_flag = race_kapotun
-				culture = {
-					OR = {
-						has_cultural_pillar = heritage_dremora
-						has_cultural_pillar = heritage_imgan
-						has_cultural_pillar = heritage_kapotun
-						has_cultural_pillar = heritage_maormeri
-						has_cultural_pillar = heritage_orcish
-					}
-				}
+				race = race_orsimer
+				race = race_orsimer_2
+				race = race_orsimer_iron
+				race = race_orsimer_malahk
+				race = race_maormer
+				race = race_dremora
+				race = race_dremora_eso
+				race = race_imga_orangutang
+				race = race_imga_gorilla
 			}
 		}
 		add_character_flag = race_ek2_height_very_tall
+	}
+
+	# Nords/Atmorans: tall human baseline.
+	else_if = {
+		limit = {
+			OR = {
+				race = race_nord_1
+				race = race_nord_2
+				race = race_nord_3
+				race = race_nord_4
+				race = race_nord_cyronord_1
+				race = race_nord_cyronord_2
+				race = race_nord_cyronord_3
+				race = race_nord_cyronord_4
+				race = race_nord_cyronord_5
+			}
+		}
+		add_character_flag = race_ek2_height_nord
 	}
 
 	# Slightly tall races.
@@ -85,17 +101,21 @@ ek2_set_height_race_flags_effect = {
 			OR = {
 				has_character_flag = race_argonian
 				has_character_flag = race_echmer
-				culture = {
-					OR = {
-						has_cultural_pillar = heritage_argonian
-						has_cultural_pillar = heritage_echmer
-						has_cultural_pillar = heritage_tsaesci
-						has_cultural_pillar = heritage_dunmeri
-						has_cultural_pillar = heritage_chimeri
-						has_cultural_pillar = heritage_falmeri
-						has_cultural_pillar = heritage_dwemeri
-					}
-				}
+				race = race_dunmer
+				race = race_dunmer_ear
+				race = race_dunmer_2
+				race = race_dunmer_ashlander
+				race = race_argonian
+				race = race_argonian_sarpa
+				race = race_argonian_naga
+				race = race_argonian_paatru
+				race = race_tsaesci_1
+				race = race_tsaesci_2
+				race = race_tsaesci_3
+				race = race_tsaesci_4
+				race = race_falmer
+				race = race_falmer_ear
+				race = race_falmer_betrayed
 			}
 		}
 		add_character_flag = race_ek2_height_tall
@@ -106,38 +126,51 @@ ek2_set_height_race_flags_effect = {
 		limit = {
 			OR = {
 				has_character_flag = race_lilmothiit
-				culture = {
-					OR = {
-						has_cultural_pillar = heritage_bosmeri
-						has_cultural_pillar = heritage_lilmothiit
-					}
-				}
+				race = race_bosmer
+				race = race_lilmothiit
 			}
 		}
 		add_character_flag = race_ek2_height_short
 	}
 
-	# Average-height groups (humans + variable beastfolk).
+	# Average-height groups.
 	else_if = {
 		limit = {
 			OR = {
 				has_character_flag = race_khajiit
 				has_character_flag = race_tangmo
 				has_character_flag = race_faun
-				culture = {
-					OR = {
-						has_cultural_pillar = heritage_khajiiti
-						has_cultural_pillar = heritage_tangmo
-						has_cultural_pillar = heritage_faun
-						has_cultural_pillar = heritage_breton
-						has_cultural_pillar = heritage_cyrodiilic
-						has_cultural_pillar = heritage_cyrod
-						has_cultural_pillar = heritage_yokudan
-						has_cultural_pillar = heritage_kothri
-						has_cultural_pillar = heritage_deathlander
-						has_cultural_pillar = heritage_sinestral
-					}
-				}
+				race = race_khajiit
+				race = race_redguard_forebear_1
+				race = race_redguard_forebear_2
+				race = race_redguard_forebear_3
+				race = race_redguard_forebear_4
+				race = race_breton_glenumbran_1
+				race = race_breton_glenumbran_2
+				race = race_breton_glenumbran_3
+				race = race_breton_bjoule_1
+				race = race_breton_bjoule_2
+				race = race_breton_bjoule_3
+				race = race_breton_northman_1
+				race = race_breton_northman_2
+				race = race_imperial_colovian_1
+				race = race_imperial_colovian_2
+				race = race_imperial_colovian_3
+				race = race_imperial_colovian_4
+				race = race_imperial_colovian_1_dark
+				race = race_imperial_colovian_4_dark
+				race = race_imperial_colovian_5_dark
+				race = race_imperial_nibenese_1
+				race = race_imperial_nibenese_2
+				race = race_imperial_nibenese_3
+				race = race_imperial_nibenese_4
+				race = race_imperial_nibenese_5
+				race = race_imperial_nibenese_6
+				race = race_imperial_nibenese_1_dark
+				race = race_imperial_nibenese_2_dark
+				race = race_imperial_nibenese_3_dark
+				race = race_imperial_nibenese_4_dark
+				race = race_faun
 			}
 		}
 		add_character_flag = race_ek2_height_average
