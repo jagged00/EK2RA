@@ -1,159 +1,36 @@
-﻿assign_ek2_height_traits_by_culture_effect = {
-	# Goblin-ken
+assign_ek2_height_traits_by_culture_effect = {
+	ek2_set_height_race_flags_effect = yes
+
 	if = {
-		limit = {
-			OR = {
-				has_character_flag = race_goblinken
-				culture = goblin
-				culture = riekling
-				culture = riekr
-			}
-		}
+		limit = { has_character_flag = race_ek2_height_goblinken }
 		add_trait = short_5
 	}
-
-	# Altmer + Ayleid
 	else_if = {
-		limit = {
-			OR = {
-				culture = alinor
-				culture = auridon
-				culture = balfiera
-				culture = corelanya
-				culture = ayleid
-				culture = mathmeldi
-				culture = barsaebic
-				culture = dynari
-			}
-		}
+		limit = { has_character_flag = race_ek2_height_altmer_ayleid }
 		add_trait = tall_5
 	}
-
-	# Nords/Atmorans
 	else_if = {
-		limit = {
-			OR = {
-				culture = atmoran
-				culture = skaal
-				culture = eastmarcher
-				culture = westmarcher
-				culture = cyro_nord
-			}
-		}
-		add_trait = tall_3
-	}
-
-	# Giant + Minotaur
-	else_if = {
-		limit = {
-			OR = {
-				has_character_flag = race_giant
-				has_character_flag = race_minotaur
-				culture = tundrastrider
-				culture = giant
-				culture = sea_giant
-				culture = mountain_giant
-				culture = minotaur
-				culture = agreminotaur
-				culture = knocker
-			}
-		}
+		limit = { has_character_flag = race_ek2_height_giant_minotaur }
 		add_trait = tall_5
 	}
-
-	# Very tall
 	else_if = {
-		limit = {
-			OR = {
-				has_character_flag = race_daedra
-				has_character_flag = race_imga
-				has_character_flag = race_kapotun
-				culture = dremora
-				culture = imga
-				culture = kapotun
-				culture = maormer
-				culture = beyonder
-				culture = mountain_orc
-				culture = iron_orc
-				culture = wood_orc
-				culture = malahk_orc
-				culture = dune_orc
-			}
-		}
+		limit = { has_character_flag = race_ek2_height_very_tall }
 		add_trait = tall_4
 	}
-
-	# Slightly tall
 	else_if = {
-		limit = {
-			OR = {
-				has_character_flag = race_argonian
-				has_character_flag = race_echmer
-				culture = gah_julan
-				culture = armun_an
-				culture = chuzei
-				culture = chi_addun
-				culture = marduhn_oad
-				culture = ashlander
-				culture = shinathi
-				culture = kogo_isra
-				culture = chimer
-				culture = chimeriquey
-				culture = cantemiric
-				culture = amz_vtharden
-				culture = amz_vtholften
-				culture = amz_kagren
-				culture = tsaesci
-				culture = ilniviri
-				culture = rimmen
-				culture = echmer
-				culture = falmer
-				culture = falmer_betrayed
-				culture = hleel
-				culture = naga
-				culture = paatru
-				culture = agaceph
-				culture = sarpa
-				culture = ojel
-				culture = hapsleet
-			}
-		}
+		limit = { has_character_flag = race_ek2_height_nord }
+		add_trait = tall_3
+	}
+	else_if = {
+		limit = { has_character_flag = race_ek2_height_tall }
 		add_trait = tall_1
 	}
-
-	# Bosmer + Lilmothiit
 	else_if = {
-		limit = {
-			OR = {
-				has_character_flag = race_lilmothiit
-				culture = morathi
-				culture = altmeribosmer
-				culture = cyrobosmer
-				culture = arenthi
-				culture = silvenari
-				culture = etarani
-				culture = lilmothiit
-			}
-		}
+		limit = { has_character_flag = race_ek2_height_short }
 		add_trait = short_2
 	}
-
-	# Variable groups
 	else_if = {
-		limit = {
-			OR = {
-				has_character_flag = race_khajiit
-				has_character_flag = race_tangmo
-				has_character_flag = race_faun
-				culture = khajiit
-				culture = pellitinian
-				culture = anequinan
-				culture = baandari
-				culture = malapiit
-				culture = tangmo
-				culture = faun
-			}
-		}
+		limit = { has_character_flag = race_ek2_height_average }
 		add_trait = average_height
 	}
 }

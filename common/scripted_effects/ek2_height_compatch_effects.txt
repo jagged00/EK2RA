@@ -1,14 +1,8 @@
-﻿assign_ek2_height_trait_effect = {
-	# Goblin-ken
+assign_ek2_height_trait_effect = {
+	ek2_set_height_race_flags_effect = yes
+
 	if = {
-		limit = {
-			OR = {
-				has_character_flag = race_goblinken
-				culture = goblin
-				culture = riekling
-				culture = riekr
-			}
-		}
+		limit = { has_character_flag = race_ek2_height_goblinken }
 		if = {
 			limit = { NOT = { has_trait = short_5 } }
 			remove_height_trait_effect = yes
@@ -16,21 +10,8 @@
 		}
 		set_variable = { name = ek2_height_forced value = 1 }
 	}
-
-	# Altmer + Ayleid
 	else_if = {
-		limit = {
-			OR = {
-				culture = alinor
-				culture = auridon
-				culture = balfiera
-				culture = corelanya
-				culture = ayleid
-				culture = mathmeldi
-				culture = barsaebic
-				culture = dynari
-			}
-		}
+		limit = { has_character_flag = race_ek2_height_altmer_ayleid }
 		if = {
 			limit = { NOT = { has_trait = tall_5 } }
 			remove_height_trait_effect = yes
@@ -38,41 +19,8 @@
 		}
 		set_variable = { name = ek2_height_forced value = 1 }
 	}
-
-	# Nords/Atmorans
 	else_if = {
-		limit = {
-			OR = {
-				culture = atmoran
-				culture = skaal
-				culture = eastmarcher
-				culture = westmarcher
-				culture = cyro_nord
-			}
-		}
-		if = {
-			limit = { NOT = { has_trait = tall_3 } }
-			remove_height_trait_effect = yes
-			add_trait = tall_3
-		}
-		set_variable = { name = ek2_height_forced value = 1 }
-	}
-
-	# Giant + Minotaur
-	else_if = {
-		limit = {
-			OR = {
-				has_character_flag = race_giant
-				has_character_flag = race_minotaur
-				culture = tundrastrider
-				culture = giant
-				culture = sea_giant
-				culture = mountain_giant
-				culture = minotaur
-				culture = agreminotaur
-				culture = knocker
-			}
-		}
+		limit = { has_character_flag = race_ek2_height_giant_minotaur }
 		if = {
 			limit = { NOT = { has_trait = tall_5 } }
 			remove_height_trait_effect = yes
@@ -80,26 +28,8 @@
 		}
 		set_variable = { name = ek2_height_forced value = 1 }
 	}
-
-	# Very tall
 	else_if = {
-		limit = {
-			OR = {
-				has_character_flag = race_daedra
-				has_character_flag = race_imga
-				has_character_flag = race_kapotun
-				culture = dremora
-				culture = imga
-				culture = kapotun
-				culture = maormer
-				culture = beyonder
-				culture = mountain_orc
-				culture = iron_orc
-				culture = wood_orc
-				culture = malahk_orc
-				culture = dune_orc
-			}
-		}
+		limit = { has_character_flag = race_ek2_height_very_tall }
 		if = {
 			limit = { NOT = { has_trait = tall_4 } }
 			remove_height_trait_effect = yes
@@ -107,42 +37,17 @@
 		}
 		set_variable = { name = ek2_height_forced value = 1 }
 	}
-
-	# Slightly tall
 	else_if = {
-		limit = {
-			OR = {
-				has_character_flag = race_argonian
-				has_character_flag = race_echmer
-				culture = gah_julan
-				culture = armun_an
-				culture = chuzei
-				culture = chi_addun
-				culture = marduhn_oad
-				culture = ashlander
-				culture = shinathi
-				culture = kogo_isra
-				culture = chimer
-				culture = chimeriquey
-				culture = cantemiric
-				culture = amz_vtharden
-				culture = amz_vtholften
-				culture = amz_kagren
-				culture = tsaesci
-				culture = ilniviri
-				culture = rimmen
-				culture = echmer
-				culture = falmer
-				culture = falmer_betrayed
-				culture = hleel
-				culture = naga
-				culture = paatru
-				culture = agaceph
-				culture = sarpa
-				culture = ojel
-				culture = hapsleet
-			}
+		limit = { has_character_flag = race_ek2_height_nord }
+		if = {
+			limit = { NOT = { has_trait = tall_3 } }
+			remove_height_trait_effect = yes
+			add_trait = tall_3
 		}
+		set_variable = { name = ek2_height_forced value = 1 }
+	}
+	else_if = {
+		limit = { has_character_flag = race_ek2_height_tall }
 		if = {
 			limit = { NOT = { has_trait = tall_1 } }
 			remove_height_trait_effect = yes
@@ -150,21 +55,8 @@
 		}
 		set_variable = { name = ek2_height_forced value = 1 }
 	}
-
-	# Bosmer + Lilmothiit
 	else_if = {
-		limit = {
-			OR = {
-				has_character_flag = race_lilmothiit
-				culture = morathi
-				culture = altmeribosmer
-				culture = cyrobosmer
-				culture = arenthi
-				culture = silvenari
-				culture = etarani
-				culture = lilmothiit
-			}
-		}
+		limit = { has_character_flag = race_ek2_height_short }
 		if = {
 			limit = { NOT = { has_trait = short_2 } }
 			remove_height_trait_effect = yes
@@ -172,23 +64,8 @@
 		}
 		set_variable = { name = ek2_height_forced value = 1 }
 	}
-
-	# Variable groups
 	else_if = {
-		limit = {
-			OR = {
-				has_character_flag = race_khajiit
-				has_character_flag = race_tangmo
-				has_character_flag = race_faun
-				culture = khajiit
-				culture = pellitinian
-				culture = anequinan
-				culture = baandari
-				culture = malapiit
-				culture = tangmo
-				culture = faun
-			}
-		}
+		limit = { has_character_flag = race_ek2_height_average }
 		if = {
 			limit = { NOT = { has_trait = average_height } }
 			remove_height_trait_effect = yes

@@ -1,0 +1,145 @@
+ek2_set_height_race_flags_effect = {
+	# Reset local EK2 height race flags so recalculation stays deterministic.
+	remove_character_flag = race_ek2_height_goblinken
+	remove_character_flag = race_ek2_height_altmer_ayleid
+	remove_character_flag = race_ek2_height_nord
+	remove_character_flag = race_ek2_height_giant_minotaur
+	remove_character_flag = race_ek2_height_very_tall
+	remove_character_flag = race_ek2_height_tall
+	remove_character_flag = race_ek2_height_short
+	remove_character_flag = race_ek2_height_average
+
+	# Goblinken: shortest.
+	if = {
+		limit = {
+			OR = {
+				has_character_flag = race_goblinken
+				culture = { has_cultural_pillar = heritage_goblinken }
+			}
+		}
+		add_character_flag = race_ek2_height_goblinken
+	}
+
+	# Altmer/Ayleid: tallest mer.
+	else_if = {
+		limit = {
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_aldmeri
+					has_cultural_pillar = heritage_ayleid
+				}
+			}
+		}
+		add_character_flag = race_ek2_height_altmer_ayleid
+	}
+
+	# Nords/Atmorans: tall human baseline.
+	else_if = {
+		limit = {
+			culture = { has_cultural_pillar = heritage_atmoran }
+		}
+		add_character_flag = race_ek2_height_nord
+	}
+
+	# Giants/Minotaurs: tallest possible.
+	else_if = {
+		limit = {
+			OR = {
+				has_character_flag = race_giant
+				has_character_flag = race_minotaur
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_atmoran_giant
+						has_cultural_pillar = heritage_minotaur
+					}
+				}
+			}
+		}
+		add_character_flag = race_ek2_height_giant_minotaur
+	}
+
+	# Very tall races.
+	else_if = {
+		limit = {
+			OR = {
+				has_character_flag = race_daedra
+				has_character_flag = race_imga
+				has_character_flag = race_kapotun
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_dremora
+						has_cultural_pillar = heritage_imgan
+						has_cultural_pillar = heritage_kapotun
+						has_cultural_pillar = heritage_maormeri
+						has_cultural_pillar = heritage_orcish
+					}
+				}
+			}
+		}
+		add_character_flag = race_ek2_height_very_tall
+	}
+
+	# Slightly tall races.
+	else_if = {
+		limit = {
+			OR = {
+				has_character_flag = race_argonian
+				has_character_flag = race_echmer
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_argonian
+						has_cultural_pillar = heritage_echmer
+						has_cultural_pillar = heritage_tsaesci
+						has_cultural_pillar = heritage_dunmeri
+						has_cultural_pillar = heritage_chimeri
+						has_cultural_pillar = heritage_falmeri
+						has_cultural_pillar = heritage_dwemeri
+					}
+				}
+			}
+		}
+		add_character_flag = race_ek2_height_tall
+	}
+
+	# Short races.
+	else_if = {
+		limit = {
+			OR = {
+				has_character_flag = race_lilmothiit
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_bosmeri
+						has_cultural_pillar = heritage_lilmothiit
+					}
+				}
+			}
+		}
+		add_character_flag = race_ek2_height_short
+	}
+
+	# Average-height groups (humans + variable beastfolk).
+	else_if = {
+		limit = {
+			OR = {
+				has_character_flag = race_khajiit
+				has_character_flag = race_tangmo
+				has_character_flag = race_faun
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_khajiiti
+						has_cultural_pillar = heritage_tangmo
+						has_cultural_pillar = heritage_faun
+						has_cultural_pillar = heritage_breton
+						has_cultural_pillar = heritage_cyrodiilic
+						has_cultural_pillar = heritage_cyrod
+						has_cultural_pillar = heritage_yokudan
+						has_cultural_pillar = heritage_kothri
+						has_cultural_pillar = heritage_deathlander
+						has_cultural_pillar = heritage_sinestral
+					}
+				}
+			}
+		}
+		add_character_flag = race_ek2_height_average
+	}
+}
