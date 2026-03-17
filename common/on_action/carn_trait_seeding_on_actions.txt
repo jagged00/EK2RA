@@ -9,6 +9,7 @@ on_seed_carn_trait = {
 			on_carn_tits_trait
 			on_butt_trait
 			on_height_trait
+			on_assign_ek2_height_trait
 			on_stomach_trait
 			on_arms_trait
 			on_remove_carn_trait_failsafe
@@ -120,3 +121,8 @@ on_remove_carn_tits_trait_failsafe = {
 				remove_breasts_trait_effect = yes
 			}
 		}
+on_assign_ek2_height_trait = {
+	effect = {
+		assign_ek2_height_trait_effect = yes
+	}
+}
