@@ -1,4 +1,4 @@
-assign_ek2_height_trait_effect = {
+﻿assign_ek2_height_trait_effect = {
 	# Goblin-ken
 	if = {
 		limit = {
@@ -7,7 +7,6 @@ assign_ek2_height_trait_effect = {
 				culture = goblin
 				culture = riekling
 				culture = riekr
-				culture = { has_cultural_pillar = heritage_goblinken }
 			}
 		}
 		if = {
@@ -30,8 +29,6 @@ assign_ek2_height_trait_effect = {
 				culture = mathmeldi
 				culture = barsaebic
 				culture = dynari
-				culture = { has_cultural_pillar = heritage_aldmeri }
-				culture = { has_cultural_pillar = heritage_ayleid }
 			}
 		}
 		if = {
@@ -51,7 +48,6 @@ assign_ek2_height_trait_effect = {
 				culture = eastmarcher
 				culture = westmarcher
 				culture = cyro_nord
-				culture = { has_cultural_pillar = heritage_atmoran }
 			}
 		}
 		if = {
@@ -75,8 +71,6 @@ assign_ek2_height_trait_effect = {
 				culture = minotaur
 				culture = agreminotaur
 				culture = knocker
-				culture = { has_cultural_pillar = heritage_atmoran_giant }
-				culture = { has_cultural_pillar = heritage_minotaur }
 			}
 		}
 		if = {
@@ -104,11 +98,6 @@ assign_ek2_height_trait_effect = {
 				culture = wood_orc
 				culture = malahk_orc
 				culture = dune_orc
-				culture = { has_cultural_pillar = heritage_dremora }
-				culture = { has_cultural_pillar = heritage_imgan }
-				culture = { has_cultural_pillar = heritage_kapotun }
-				culture = { has_cultural_pillar = heritage_maormeri }
-				culture = { has_cultural_pillar = heritage_orcish }
 			}
 		}
 		if = {
@@ -152,13 +141,6 @@ assign_ek2_height_trait_effect = {
 				culture = sarpa
 				culture = ojel
 				culture = hapsleet
-				culture = { has_cultural_pillar = heritage_dunmeri }
-				culture = { has_cultural_pillar = heritage_chimeri }
-				culture = { has_cultural_pillar = heritage_echmer }
-				culture = { has_cultural_pillar = heritage_falmeri }
-				culture = { has_cultural_pillar = heritage_tsaesci }
-				culture = { has_cultural_pillar = heritage_argonian }
-				culture = { has_cultural_pillar = heritage_dwemeri }
 			}
 		}
 		if = {
@@ -181,8 +163,6 @@ assign_ek2_height_trait_effect = {
 				culture = silvenari
 				culture = etarani
 				culture = lilmothiit
-				culture = { has_cultural_pillar = heritage_bosmeri }
-				culture = { has_cultural_pillar = heritage_lilmothiit }
 			}
 		}
 		if = {
@@ -207,9 +187,6 @@ assign_ek2_height_trait_effect = {
 				culture = malapiit
 				culture = tangmo
 				culture = faun
-				culture = { has_cultural_pillar = heritage_khajiiti }
-				culture = { has_cultural_pillar = heritage_tangmo }
-				culture = { has_cultural_pillar = heritage_faun }
 			}
 		}
 		if = {
