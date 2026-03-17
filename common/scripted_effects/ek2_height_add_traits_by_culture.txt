@@ -1,0 +1,36 @@
+assign_ek2_height_traits_by_culture_effect = {
+	ek2_set_height_race_flags_effect = yes
+
+	if = {
+		limit = { has_character_flag = race_ek2_height_goblinken }
+		add_trait = short_5
+	}
+	else_if = {
+		limit = { has_character_flag = race_ek2_height_altmer_ayleid }
+		add_trait = tall_5
+	}
+	else_if = {
+		limit = { has_character_flag = race_ek2_height_giant_minotaur }
+		add_trait = tall_5
+	}
+	else_if = {
+		limit = { has_character_flag = race_ek2_height_very_tall }
+		add_trait = tall_4
+	}
+	else_if = {
+		limit = { has_character_flag = race_ek2_height_nord }
+		add_trait = tall_3
+	}
+	else_if = {
+		limit = { has_character_flag = race_ek2_height_tall }
+		add_trait = tall_1
+	}
+	else_if = {
+		limit = { has_character_flag = race_ek2_height_short }
+		add_trait = short_2
+	}
+	else_if = {
+		limit = { has_character_flag = race_ek2_height_average }
+		add_trait = average_height
+	}
+}

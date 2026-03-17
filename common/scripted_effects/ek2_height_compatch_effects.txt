@@ -1,0 +1,76 @@
+assign_ek2_height_trait_effect = {
+	ek2_set_height_race_flags_effect = yes
+
+	if = {
+		limit = { has_character_flag = race_ek2_height_goblinken }
+		if = {
+			limit = { NOT = { has_trait = short_5 } }
+			remove_height_trait_effect = yes
+			add_trait = short_5
+		}
+		set_variable = { name = ek2_height_forced value = 1 }
+	}
+	else_if = {
+		limit = { has_character_flag = race_ek2_height_altmer_ayleid }
+		if = {
+			limit = { NOT = { has_trait = tall_5 } }
+			remove_height_trait_effect = yes
+			add_trait = tall_5
+		}
+		set_variable = { name = ek2_height_forced value = 1 }
+	}
+	else_if = {
+		limit = { has_character_flag = race_ek2_height_giant_minotaur }
+		if = {
+			limit = { NOT = { has_trait = tall_5 } }
+			remove_height_trait_effect = yes
+			add_trait = tall_5
+		}
+		set_variable = { name = ek2_height_forced value = 1 }
+	}
+	else_if = {
+		limit = { has_character_flag = race_ek2_height_very_tall }
+		if = {
+			limit = { NOT = { has_trait = tall_4 } }
+			remove_height_trait_effect = yes
+			add_trait = tall_4
+		}
+		set_variable = { name = ek2_height_forced value = 1 }
+	}
+	else_if = {
+		limit = { has_character_flag = race_ek2_height_nord }
+		if = {
+			limit = { NOT = { has_trait = tall_3 } }
+			remove_height_trait_effect = yes
+			add_trait = tall_3
+		}
+		set_variable = { name = ek2_height_forced value = 1 }
+	}
+	else_if = {
+		limit = { has_character_flag = race_ek2_height_tall }
+		if = {
+			limit = { NOT = { has_trait = tall_1 } }
+			remove_height_trait_effect = yes
+			add_trait = tall_1
+		}
+		set_variable = { name = ek2_height_forced value = 1 }
+	}
+	else_if = {
+		limit = { has_character_flag = race_ek2_height_short }
+		if = {
+			limit = { NOT = { has_trait = short_2 } }
+			remove_height_trait_effect = yes
+			add_trait = short_2
+		}
+		set_variable = { name = ek2_height_forced value = 1 }
+	}
+	else_if = {
+		limit = { has_character_flag = race_ek2_height_average }
+		if = {
+			limit = { NOT = { has_trait = average_height } }
+			remove_height_trait_effect = yes
+			add_trait = average_height
+		}
+		set_variable = { name = ek2_height_forced value = 1 }
+	}
+}
