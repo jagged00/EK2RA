@@ -1,4 +1,4 @@
-assign_ek2_height_trait_effect = {
+assign_ek2_height_traits_by_culture_effect = {
 	# Goblin-ken
 	if = {
 		limit = {
@@ -10,12 +10,7 @@ assign_ek2_height_trait_effect = {
 				culture = { has_cultural_pillar = heritage_goblinken }
 			}
 		}
-		if = {
-			limit = { NOT = { has_trait = short_5 } }
-			remove_height_trait_effect = yes
-			add_trait = short_5
-		}
-		set_variable = { name = ek2_height_forced value = 1 }
+		add_trait = short_5
 	}
 
 	# Altmer + Ayleid
@@ -34,12 +29,7 @@ assign_ek2_height_trait_effect = {
 				culture = { has_cultural_pillar = heritage_ayleid }
 			}
 		}
-		if = {
-			limit = { NOT = { has_trait = tall_5 } }
-			remove_height_trait_effect = yes
-			add_trait = tall_5
-		}
-		set_variable = { name = ek2_height_forced value = 1 }
+		add_trait = tall_5
 	}
 
 	# Nords/Atmorans
@@ -54,12 +44,7 @@ assign_ek2_height_trait_effect = {
 				culture = { has_cultural_pillar = heritage_atmoran }
 			}
 		}
-		if = {
-			limit = { NOT = { has_trait = tall_3 } }
-			remove_height_trait_effect = yes
-			add_trait = tall_3
-		}
-		set_variable = { name = ek2_height_forced value = 1 }
+		add_trait = tall_3
 	}
 
 	# Giant + Minotaur
@@ -79,12 +64,7 @@ assign_ek2_height_trait_effect = {
 				culture = { has_cultural_pillar = heritage_minotaur }
 			}
 		}
-		if = {
-			limit = { NOT = { has_trait = tall_5 } }
-			remove_height_trait_effect = yes
-			add_trait = tall_5
-		}
-		set_variable = { name = ek2_height_forced value = 1 }
+		add_trait = tall_5
 	}
 
 	# Very tall
@@ -111,12 +91,7 @@ assign_ek2_height_trait_effect = {
 				culture = { has_cultural_pillar = heritage_orcish }
 			}
 		}
-		if = {
-			limit = { NOT = { has_trait = tall_4 } }
-			remove_height_trait_effect = yes
-			add_trait = tall_4
-		}
-		set_variable = { name = ek2_height_forced value = 1 }
+		add_trait = tall_4
 	}
 
 	# Slightly tall
@@ -161,12 +136,7 @@ assign_ek2_height_trait_effect = {
 				culture = { has_cultural_pillar = heritage_dwemeri }
 			}
 		}
-		if = {
-			limit = { NOT = { has_trait = tall_1 } }
-			remove_height_trait_effect = yes
-			add_trait = tall_1
-		}
-		set_variable = { name = ek2_height_forced value = 1 }
+		add_trait = tall_1
 	}
 
 	# Bosmer + Lilmothiit
@@ -185,12 +155,7 @@ assign_ek2_height_trait_effect = {
 				culture = { has_cultural_pillar = heritage_lilmothiit }
 			}
 		}
-		if = {
-			limit = { NOT = { has_trait = short_2 } }
-			remove_height_trait_effect = yes
-			add_trait = short_2
-		}
-		set_variable = { name = ek2_height_forced value = 1 }
+		add_trait = short_2
 	}
 
 	# Variable groups
@@ -212,11 +177,6 @@ assign_ek2_height_trait_effect = {
 				culture = { has_cultural_pillar = heritage_faun }
 			}
 		}
-		if = {
-			limit = { NOT = { has_trait = average_height } }
-			remove_height_trait_effect = yes
-			add_trait = average_height
-		}
-		set_variable = { name = ek2_height_forced value = 1 }
+		add_trait = average_height
 	}
 }
