@@ -1,0 +1,7 @@
+ek2_disallowed_romance_race_trigger = {
+	OR = {
+		culture = { has_heritage = heritage_goblinken }
+		culture = { has_heritage = heritage_atmoran_giant }
+		culture = { has_heritage = heritage_minotaur }
+	}
+}

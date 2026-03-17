@@ -130,6 +130,8 @@ courting = {
 				}
 			}
 		}
+		NOT = { ek2_disallowed_romance_race_trigger = yes }
+		scope:target = { NOT = { ek2_disallowed_romance_race_trigger = yes } }
 	}	
 	valid = {
 		is_incapable = no
